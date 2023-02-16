@@ -96,6 +96,9 @@
   ul {
     margin: 0;
   }
+  .intro{
+    width: 250px;
+  }
   .footer {
     padding: 90px 0;
   }
