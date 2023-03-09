@@ -8,8 +8,8 @@ html {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #FAB9EF;
-  color: #501653;
+  background-color: #032b15;
+  color: #d1cc4b;
   font-size: 16px;
   font-weight: 400;
   margin: 0;
@@ -54,7 +54,7 @@ h4 {
 
 .header {
   padding: 60px 0 150px 0;
-  background-image: url(../img/gradient_hearts.png);
+  background-image: url(../img/gradient.png);
 }
 
 .link-ng {
@@ -78,7 +78,7 @@ h4 {
 
 .line {
   height: 10px;
-  background: #BA4FD6;
+  background: #d1cc4b;
 }
 
 .features-container {
@@ -121,11 +121,11 @@ h4 {
 }
 
 .button, .drop-down-link {
-  background: linear-gradient(93.97deg, #FF6679 0%, #FB26D3 100%);
-  box-shadow: 0px 4px 15px rgba(255, 64, 247, 0.69);
+  background: linear-gradient(93.97deg, #0ac2a4 0%, #395655 100%);
+  box-shadow: 0px 0px 20px rgba(86, 255, 64, 0.69);
   border-radius: 100px;
   font-size: 18px;
-  color: #FFE1FE;
+  color: #e1ffe1;
   text-decoration: none;
   margin: auto;
   padding: 22px 50px;
@@ -141,15 +141,15 @@ h4 {
 }
 
 .button:hover {
-  background: linear-gradient(93.97deg, #FB26D3 0%, #FF6679 100%);
+  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
 }
 
 .drop-down-link:hover {
-  background: linear-gradient(93.97deg, #FB26D3 0%, #FF6679 100%);
+  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
 }
 
 .action-wrap {
-  background: linear-gradient(102deg, #FFDFDE 17.38%, #F68EE9 81.25%);
+  background: linear-gradient(102deg, #277e64 17.38%, #114735 81.25%);
   border-radius: 60px;
   display: flex;
   align-items: center;
@@ -178,7 +178,7 @@ h4 {
 }
 
 .accordion-menu .drop-down-link:hover {
-  background: linear-gradient(93.97deg, #FB26D3 0%, #FF6679 100%);
+  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
 }
 
 .accordion-menu.open ul {
@@ -192,7 +192,7 @@ ul {
 }
 
 ul .drop-down-link {
-  background: linear-gradient(93.97deg, #FB26D3 0%, #FF6679 100%);
+  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
 }
 
 .sub-menu-items .button {
@@ -208,8 +208,8 @@ ul .drop-down-link {
 .footer {
   margin-top: 120px;
   padding: 90px 0;
-  background: #FC73DD;
-  color: #FFE1FE;
+  background: #030d09;
+  color: #395655;
   text-align: center;
 }
 
@@ -226,7 +226,7 @@ ul .drop-down-link {
 
 .credits {
   font-size: 15px;
-  color: #FFE1FE;
+  color: #395655;
   display: flex;
   flex-direction: column;
   gap: 11px;
