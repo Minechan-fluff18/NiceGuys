@@ -50,6 +50,9 @@
     flex-direction: column;
     text-align: center;
   }
+  .title-2 {
+    width: 100%;
+  }
   .features-container {
     width: auto;
   }
@@ -77,9 +80,10 @@
   }
   .groups .feature-text {
     margin: auto;
+    width: 100%;
   }
-  .feature-text{
-    width: 150px;
+  .feature-title_2, .feature-text {
+    width: 250px;
   }
   .button, .drop-down-link {
     width: 250px;
