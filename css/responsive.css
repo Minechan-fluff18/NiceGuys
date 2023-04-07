@@ -5,6 +5,10 @@
   .container {
     max-width: 960px;
   }
+  .image-dr, .image-pr {
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /* Medium: 768px - 991px */
@@ -73,14 +77,8 @@
   }
   .groups .feature-text {
     margin: auto;
-    width: 230px;
   }
-  .line-group {
-    display: table-column;
-    margin: auto;
-    width: 230px;
-  }
-  .line-group .feature-text{
+  .feature-text{
     width: 150px;
   }
   .button, .drop-down-link {

@@ -8,7 +8,7 @@ html {
 
 body {
   font-family: 'Ubuntu', sans-serif;
-  background-color: #032b15;
+  background-color: #28235D;
   color: #d1cc4b;
   font-size: 16px;
   font-weight: 400;
@@ -69,16 +69,25 @@ h4 {
   left: 235px;
 }
 
-.wrapper {
-  display: flex;
+.wrapper {    
+  display: column;
   align-items: center;
   justify-content: space-between;
   margin-top: 150px;
 }
 
+.image-dr, .image-pr {
+  position: sticky;
+  height: 143px;
+}
+
+.image-pr {
+  padding: 0 0 0 12%;
+}
+
 .line {
   height: 10px;
-  background: #d1cc4b;
+  background: #F8EB02;
 }
 
 .features-container {
@@ -88,11 +97,18 @@ h4 {
   margin: 0 auto;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 50px;
 }
 
 .feature-title {
   font-size: 20px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+}
+
+.feature-title_2 {
+  font-size: 18px;
   margin: auto;
   display: flex;
   text-align: center;
@@ -109,20 +125,18 @@ h4 {
   align-items: center;
 }
 
-.line-group {
-  display: flex;
-  width: 359px;
-  gap: 50px;
-  text-align: justify;
-}
-
 .feature-text {
   size: 16px;
 }
 
+.title-2 {
+  display: grid;
+  gap: 20px;
+}
+
 .button, .drop-down-link {
-  background: linear-gradient(93.97deg, #0ac2a4 0%, #395655 100%);
-  box-shadow: 0px 0px 20px rgba(86, 255, 64, 0.69);
+  background: linear-gradient(93.97deg, #8E21D1 0%, #2492E2 100%);
+  box-shadow: 0px 0px 20px rgba(208, 206, 232, 0.69);
   border-radius: 100px;
   font-size: 18px;
   color: #e1ffe1;
@@ -141,15 +155,16 @@ h4 {
 }
 
 .button:hover {
-  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
+  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
 }
 
 .drop-down-link:hover {
-  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
+  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
 }
 
 .action-wrap {
-  background: linear-gradient(102deg, #277e64 17.38%, #114735 81.25%);
+  background-image: url('../img/crystal.png');
+  background-size: cover;
   border-radius: 60px;
   display: flex;
   align-items: center;
@@ -178,7 +193,7 @@ h4 {
 }
 
 .accordion-menu .drop-down-link:hover {
-  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
+  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
 }
 
 .accordion-menu.open ul {
@@ -192,7 +207,7 @@ ul {
 }
 
 ul .drop-down-link {
-  background: linear-gradient(93.97deg, #395655 0%, #0ac2a4 100%);
+  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
 }
 
 .sub-menu-items .button {
@@ -203,13 +218,16 @@ ul .drop-down-link {
   font-size: 18px;
   margin: 80px auto;
   width: 371px;
+  text-align: center;
 }
 
 .footer {
   margin-top: 120px;
   padding: 90px 0;
-  background: #030d09;
-  color: #395655;
+  background: #1C174B;
+  background-image: url('../img/crystal-ft.png');
+  background-size: cover;
+  color: #D0CEE8;
   text-align: center;
 }
 
@@ -226,7 +244,7 @@ ul .drop-down-link {
 
 .credits {
   font-size: 15px;
-  color: #395655;
+  color: #D0CEE8;
   display: flex;
   flex-direction: column;
   gap: 11px;
