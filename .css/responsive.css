@@ -72,7 +72,7 @@
   .wrapper {
     margin-top: 50px;
   }
-  .feature {
+  .feature, .image-ap {
     width: 100%;
   }
   .groups .feature-text {
