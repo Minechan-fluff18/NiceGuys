@@ -1,0 +1,45 @@
+ul#topnav {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: right;
+  max-width: 960px;
+  width: auto;
+  list-style: none;
+  position: initial;
+  font-weight: 300;
+}
+
+ul#topnav li {
+  float: left;
+  margin: 0; 
+  padding: 0;
+  border-right: 1px solid #ffa1ee;
+  transition: all 0.5s ease;
+}
+
+ul#topnav li a {
+  padding: 10px 15px;
+  display: block;
+  color:#ffa1ee;
+  text-decoration: none;
+}
+
+ul#topnav li span {
+  display: none;
+  position: fixed;
+  flex-direction: column;
+  transition: all 0.5s ease;
+}
+
+ul#topnav li:hover { 
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+ul#topnav span:hover { 
+  background: rgba(0, 0, 0, 0.4); 
+}
+
+ul#topnav li a:hover {
+  color:#19beff;
+}

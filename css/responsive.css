@@ -5,9 +5,15 @@
   .container {
     max-width: 960px;
   }
-  .image-dr, .image-pr {
-    width: 100%;
+  .image-rules, .image-dr, .image-pr {
+    width: 110%;
     padding: 0;
+  }
+  .image-ap {
+    width: 90%;
+  }
+  .features-container {
+    width: 720px;
   }
 }
 
@@ -23,6 +29,9 @@
   }
   .image-ngp, .image-vd {
     width: 100%;
+  }
+  .feature-rules {
+    flex-direction: column;
   }
   .button {
     margin: 0 auto;
@@ -46,18 +55,35 @@
   .container {
     max-width: 540px;
   }
+  ul#topnav {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+  }
   .feature {
     flex-direction: column;
     text-align: center;
   }
   .title-2 {
     width: 100%;
+    display: contents
   }
   .features-container {
     width: auto;
   }
   .action-wrap {
     gap: 50px;
+  }
+  .credits {
+    gap: 20px;
+  }
+  .categor-cont {
+    flex-direction: column;
+    align-items: center;
+  }
+  .cont-num {
+    align-items: center;
   }
 }
 
@@ -72,11 +98,16 @@
   .container {
     padding: 0 15px;
   }
-  .wrapper {
-    margin-top: 50px;
+  .menu {
+    align-items: flex-start;
   }
-  .feature, .image-ap {
-    width: 100%;
+  ul#topnav span:hover {
+    display: contents;
+  }
+  .feature {
+    width: 75%;
+    display: flex;
+    align-items: center;
   }
   .groups .feature-text {
     margin: auto;
@@ -88,6 +119,7 @@
   .button, .drop-down-link {
     width: 250px;
     height: 75px;
+    text-align: center;
   }
   .action-wrap {
     padding: 70px 20px;
@@ -106,5 +138,12 @@
   }
   .footer {
     padding: 90px 0;
+  }
+  .contacts {
+    flex-direction: column-reverse;
+    gap: 50px;
+  }
+  .cont-num {
+    align-items: center;
   }
 }
