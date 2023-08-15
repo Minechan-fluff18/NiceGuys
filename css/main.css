@@ -12,30 +12,16 @@ html {
 }
 
 body {
-<<<<<<< Updated upstream
   font-family: Verdana, Geneva, sans-serif;
   background: 
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
     url(../img/bg.png);
   background-size: cover;
   color: #ffdcfb;
-=======
-  font-family: 'Ubuntu', sans-serif;
-  color: #ffdbfa;
->>>>>>> Stashed changes
   font-size: 16px;
   font-weight: 400;
   margin: 0;
   padding: 0;
-}
-.bg_img{
-	width: 100%;
-	background: 
-		linear-gradient(rgba(0,0,0,0.2), rgba(0, 0, 0, 0.2)), 
-		url(../img/bg.png);
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: top;
 }
 
 section {
@@ -95,21 +81,9 @@ h4 {
   left: 235px;
 }
 
-<<<<<<< Updated upstream
 .accordion-menu#menu {
   display: flex;
   align-items: flex-start;
-=======
-.menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-}
-
-.wrapper {    
-  display: column;
-  align-items: center;
->>>>>>> Stashed changes
   justify-content: space-between;
 }
 
@@ -240,17 +214,16 @@ h4 {
 }
 
 .action-wrap .hero-text {
-  width: 100%;
+  width: 432px;
 }
 
 .hero-text {
-  width: 100%;
+  width: 465px;
 }
 
 .hero-text h2 {
   text-align: center;
   margin-bottom: 40px;
-<<<<<<< Updated upstream
 }
 
 .sub-menu-items .button {
@@ -260,59 +233,6 @@ h4 {
 .intro {
   font-size: 20px;
   margin: 40px auto;
-=======
-}
-
-.accordion-menu #sec-menu {
-  cursor: pointer;
-  margin: 0 auto;
-  transition: all 0.5s ease;
-}
-
-.accordion-menu #sec-menu:hover {
-  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
-}
-
-.accordion-menu.open #sec-menu ul {
-  display: none;
-}
-
-.covers-menu {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-  margin: 0 auto 45px auto;
-  padding: 0;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0 90px;
-  flex-wrap: wrap;
-  flex-direction: column;
-  align-content: flex-start;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
-}
-
-ul .drop-down-link {
-  background: linear-gradient(93.97deg, #2492E2 0%, #8E21D1 100%);
-}
-
-.sub-menu-items .button {
-  margin: 0 auto;
-}
-
-.intro {
-  font-size: 18px;
-  margin: 40px auto 45px auto;
->>>>>>> Stashed changes
   width: 371px;
   text-align: center;
 }
@@ -320,11 +240,7 @@ ul .drop-down-link {
 .footer {
   margin-top: 120px;
   padding: 90px 0;
-<<<<<<< Updated upstream
   background: rgba(0, 0, 0, 0.4);
-=======
-  background: rgba(0,0,0,0.6);
->>>>>>> Stashed changes
   background-size: cover;
   color: #D0CEE8;
   text-align: center;
@@ -349,7 +265,6 @@ ul .drop-down-link {
   gap: 11px;
 }
 
-<<<<<<< Updated upstream
 .contacts {
   display: flex;
   justify-content: center;
@@ -385,9 +300,6 @@ ul .drop-down-link {
 }
 
 .soc-media, .other-logos {
-=======
-.soc-media, .comp-logos {
->>>>>>> Stashed changes
   display: flex;
   justify-content: center;
   flex-direction: row;
@@ -395,26 +307,7 @@ ul .drop-down-link {
   gap: 25px;
 }
 
-<<<<<<< Updated upstream
 .soc-media a, .other-logos a {
-=======
-.soc-media a, .comp-logos  a{
->>>>>>> Stashed changes
   align-items: center;
   text-decoration: none;
-}
-
-.all-logos {
-  display: flex;
-  gap: 20px;
-  flex-direction: column;
-}
-
-.contacts {
-  display: flex;
-  align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  justify-content: center;
-  gap: 80px;
 }

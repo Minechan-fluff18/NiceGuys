@@ -47,12 +47,6 @@
   }
   .intro {
     margin: 40px auto;
-    width: 100%;
-  }
-  ul {
-    margin: 0;
-    width: 100%;
-    flex-wrap: inherit;
   }
 }
 
@@ -90,7 +84,6 @@
   .action-wrap {
     gap: 50px;
   }
-<<<<<<< Updated upstream
   .credits {
     gap: 20px;
   }
@@ -100,10 +93,6 @@
   }
   .cont-num {
     align-items: center;
-=======
-  .contacts {
-    gap: 40px;
->>>>>>> Stashed changes
   }
 }
 
@@ -118,24 +107,10 @@
   .container {
     padding: 0 15px;
   }
-<<<<<<< Updated upstream
   .feature {
     width: 75%;
     display: flex;
     align-items: center;
-=======
-  .wrapper {
-    margin-top: 50px;
-  }
-  ul#topnav li span {  
-    position: inherit;
-  }  
-  ul#topnav li {
-    float: right;
-  }
-  .feature, .image-ap {
-    width: 100%;
->>>>>>> Stashed changes
   }
   .groups .feature-text {
     margin: auto;
@@ -169,12 +144,9 @@
   }
   .contacts {
     flex-direction: column-reverse;
-<<<<<<< Updated upstream
     gap: 50px;
   }
   .cont-num {
     align-items: center;
-=======
->>>>>>> Stashed changes
   }
 }
