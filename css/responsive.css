@@ -55,11 +55,20 @@
   .container {
     max-width: 540px;
   }
-  ul#topnav {
+  .menu {
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
+    align-items: flex-end;
+  }
+  .dropdown-menu__link:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  .dropdown-menu__link:active {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .menu__item.menu__item_open .dropdown-menu {
+    display: initial;
+    left: -140px;
   }
   .feature {
     flex-direction: column;
@@ -97,12 +106,6 @@
   }
   .container {
     padding: 0 15px;
-  }
-  .menu {
-    align-items: flex-start;
-  }
-  ul#topnav span:hover {
-    display: contents;
   }
   .feature {
     width: 75%;
