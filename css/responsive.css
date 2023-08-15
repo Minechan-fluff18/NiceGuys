@@ -6,7 +6,7 @@
     max-width: 960px;
   }
   .image-rules, .image-dr, .image-pr {
-    width: 110%;
+    width: 100%;
     padding: 0;
   }
   .image-ap {
