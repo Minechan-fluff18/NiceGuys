@@ -99,9 +99,10 @@ h4 {
 
 .wrapper {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
   margin-top: 150px;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .image-dr, .image-pr {
@@ -109,7 +110,7 @@ h4 {
 }
 
 .image-pr {
-  width: 94%;
+  width: 100%;
 }
 
 .features-container {
