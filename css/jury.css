@@ -1,0 +1,23 @@
+.jury-1 {
+  display: flex;
+  gap: 80px;
+}
+
+.about-jury {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.about-jury .feature-title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.feature-text-jury {
+  font-size: 18px;
+}
