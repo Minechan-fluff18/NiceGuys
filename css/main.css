@@ -153,6 +153,17 @@ h4 {
   gap: 35px;
 }
 
+ol #A-type {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.feature-title a, .feature-text a {
+  margin: 0;
+  padding: 0 0 0 5px;
+}
+
 .groups .feature-text {
   align-items: center;
 }
@@ -160,11 +171,6 @@ h4 {
 .groups-rule, .feature-text {
   display: flex;
   flex-direction: column;
-}
-
-.feature-text a {
-  text-decoration: none;
-  color: #ffdcfb;
 }
 
 .groups-rule h3 {
