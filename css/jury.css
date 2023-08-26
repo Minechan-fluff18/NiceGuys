@@ -1,6 +1,11 @@
-.jury-1 {
+.jury-1, .jury-2 {
   display: flex;
+  margin-bottom: 50px;
   gap: 80px;
+}
+
+.features-container img {
+  border-radius: 30px;
 }
 
 .about-jury {
