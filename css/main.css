@@ -190,6 +190,7 @@ ol #A-type {
 .button {
   background: linear-gradient(93.97deg, #8E21D1 0%, #2492E2 100%);
   box-shadow: 0px 0px 20px rgba(208, 206, 232, 0.69);
+  color: #ffdcfb;
   border-radius: 100px;
   font-size: 18px;
   text-decoration: none;
