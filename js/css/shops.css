@@ -1,0 +1,49 @@
+.features-container {
+  width: 100%;
+}
+
+.shops-tab {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0;
+  gap: 30px;
+}
+
+.shops-tab a {
+  background: linear-gradient(103deg, rgba(0, 209.10, 255, 0.40) 0%, rgba(93.09, 26.36, 169.14, 0.40) 100%);
+  border-radius: 30px;
+  display: flex;
+  justify-content: center;
+  width: 300px;
+  padding: 20px;
+  color: #FFFCB9;
+}
+
+.shop-link {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 15px;
+}
+
+.shop-link img, .shop-text {
+  width: 100%;
+}
+
+.shop-link img {
+  border-radius: 30px;
+  size: 90%;
+}
+
+.shop-text, h3 {
+  text-align: center;
+  margin: 20px 0 0 0;
+}
+
+.shop-text {
+  font-weight: 600;
+}
