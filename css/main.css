@@ -14,10 +14,9 @@ html {
 body {
   font-family: Verdana, Geneva, sans-serif;
   background-color: #2492E2;
-  background: 
-    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)),
-    url(../img/bg.png);
+  background: url(../img/bg.png);
   background-size: cover;
+  background-position: center;
   color: #ffdcfb;
   font-size: 16px;
   font-weight: 400;
