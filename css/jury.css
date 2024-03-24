@@ -4,6 +4,17 @@
   gap: 80px;
 }
 
+.jury-3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+  gap: 80px;
+}
+
+.jury-3 img {
+  margin: 0 10%;
+}
+
 .features-container img {
   height: max-content;
   border-radius: 30px;

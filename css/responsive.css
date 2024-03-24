@@ -18,7 +18,7 @@
   .feature-title, .feature-schedule {
     flex-direction: column;
   }
-  .jury-1, .jury-2 {
+  .jury-1, .jury-2, .jury-3 {
     gap: 50px;
   }
   .jury-1 {
@@ -27,6 +27,9 @@
   }
   .jury-2 {
     flex-direction: column-reverse;
+    align-items: center;
+  }
+  .jury-3 {
     align-items: center;
   }
   .shops-tab a {
@@ -67,6 +70,9 @@
   }
   .intro {
     margin: 40px auto;
+  }
+  .jury-3 img {
+    width: 100%;
   }
 }
 
@@ -138,7 +144,7 @@
     display: flex;
     align-items: center;
   }
-  .jury-1 {
+  .jury-1, .jury-2, .jury-3 {
     width: 90%;
     gap: 45px;
   }
